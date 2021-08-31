@@ -17,6 +17,7 @@ namespace Clean.Architecture.Infrastructure.Data
         //{
         //}
 
+        
         public AppDbContext(DbContextOptions<AppDbContext> options, IMediator mediator)
             : base(options)
         {
